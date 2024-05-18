@@ -1,34 +1,23 @@
 package com.example.demodeploy.entity;
 
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
-//@Entity
-//@Table(name = "khachhang")
+@Entity
+@Table(name = "khachhang")
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class Khachhang {
-//    @Id
-//    @Column(name = "id")
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
 //    @Column(name = "hoTen")
-    private String hoTen;
+    private String name;
 
-//    @Column(name = "email")
-    private String email;
-
-//    @Column(name = "matKhau")
-    private String matKhau;
-
-//    @Column(name = "soDienThoai")
-    private String soDienThoai;
-
-//    @Column(name = "ngaySinh")
-    private String ngaySinh;
-
-//    @Column(name = "trangThai")
-    private Integer trangThai;
-
+    private Integer age;
 }
