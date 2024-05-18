@@ -1,3 +1,4 @@
-D:\project-tot_ng\demo-deploy\src\main\java\com\example\demodeploy\DemoDeployApplication.java
-D:\project-tot_ng\demo-deploy\src\main\java\com\example\demodeploy\controller\KhachHangController.java
-D:\project-tot_ng\demo-deploy\src\main\java\com\example\demodeploy\entity\Khachhang.java
+D:\project-wed-ecomerce\deploy\demo-deploy\src\main\java\com\example\demodeploy\DemoDeployApplication.java
+D:\project-wed-ecomerce\deploy\demo-deploy\src\main\java\com\example\demodeploy\repository\KhachHangRepository.java
+D:\project-wed-ecomerce\deploy\demo-deploy\src\main\java\com\example\demodeploy\controller\KhachHangController.java
+D:\project-wed-ecomerce\deploy\demo-deploy\src\main\java\com\example\demodeploy\entity\Khachhang.java
